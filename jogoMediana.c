@@ -50,7 +50,7 @@ int main(void) {
       break;
     case 3:
       if (vet[i] > 0) {
-        maiorPosicao = vet[i];
+        maiorPosicao = vet[i+1];
       }
        printf("O valor da ultima posição eh %d\n", maiorPosicao);
       break;
